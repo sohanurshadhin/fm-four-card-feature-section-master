@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Will be added](https://your-solution-url.com)
-- Live Site URL: [Will be added](https://your-live-site-url.com)
+- Solution URL: [Four Card Feature Section](https://www.frontendmentor.io/solutions/four-card-section-with-css-grid-97GdvDvy4w)
+- Live Site URL: [Four Card Feature Section](https://fm-four-card-feature-section-master-two.vercel.app/)
 
 ## My process
 
