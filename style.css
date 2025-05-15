@@ -21,13 +21,9 @@
   box-sizing: border-box;
 }
 body {  
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: var(--veryLightGray);
   font-size: 1rem;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 img {
   max-width: 100%;
@@ -35,20 +31,14 @@ img {
 
 /* basic layout customize */
 
-.container {
-  width: 1280px;
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-}
 .top-sec {
   display: flex;
   justify-content: center;
 }
 .main-sec {
-/*   height: fit-content; */
+  height: fit-content;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  padding: 2rem 2.5rem;
 }
 .childDiv {
   display: flex;
@@ -63,6 +53,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 34rem;
 }
 
 /* basic top design */
@@ -77,7 +68,7 @@ img {
   font-family: var(--ff-fw-200);
   color: var(--veryDarkBlue);
   font-size: 2rem;
-  margin-top: 3.5rem;
+  margin-top: 1rem;
 }
 .t-pbt {
   font-family: var(--ff-fw-600);
@@ -95,8 +86,8 @@ img {
 /* card layout design */
 
 .card {
-  width: 350px;
-  height: 250px;
+  width: 22rem;
+  height: 15.625rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -144,52 +135,14 @@ img {
   width: 3.5rem;
 }
 
-/* responsive screen - desktop */
-
-@media screen and (min-width: 2161px) and (max-width: 3600px) {
-  .container {
-    scale: 1.75;
-  }
-  body {
-    margin-top: 12%;
-  }
-}
-/* 4k screen */
-@media screen and (max-width: 2160px) {
-  .container {
-    scale: 1.25;
-  }
-  body {
-    margin-top: 5%;
-  }
-}
-/* 2k screen */
-@media screen and (max-width: 1440px) {
-  .container {
-    scale: 1.1;
-  }
-  body {    
-    margin-top: 3.5%;
-  }
-}
-/* FHD screen */
-@media screen and (max-width: 1280px) {
-  .container {
-    scale: 1;
-  }
-  body {    
-    margin-top: 0;
-  }
-}
-
-/* responsive screen - tablet */
+/* responsive screen */
 
 @media screen and (max-width: 800px) {
   .container {
-    padding: 2rem;
+    padding: 0rem;
   }
   .main-sec {
-    /* height: fit-content; */
+    height: fit-content;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
@@ -207,24 +160,15 @@ img {
   .main-sec {
     display: flex;
     flex-direction: column;
-    padding: 3rem 0;
   }
   .card {
     margin-bottom: 2rem;
   }
   .card.four {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
   .t-prgph {
     width: 20rem;    
-  }
-}
-
-/* responsive screen - phone */
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
   }
 }
 
