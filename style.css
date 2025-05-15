@@ -34,7 +34,7 @@ img {
 .top-sec {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin: 3rem 0;
 }
 .main-sec {
   height: fit-content;
